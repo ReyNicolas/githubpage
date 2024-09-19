@@ -1,1 +1,186 @@
-<h1> page </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rey Nicolás Esteban</h1>
+        <p>Unity Developer</p>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate game developer focused on creating high-quality and scalable code. I enjoy working in teams, and my goal is to contribute to the development of engaging games, prioritizing code quality in every project, while continuing to learn in this field.</p>
+    </section>
+    <section id="projects" class="center-container">
+        <h2>Projects</h2>
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'Work')">Work Projects</button>
+            <button class="tablink" onclick="openTab(event, 'Personal')">Personal Projects</button>
+            <button class="tablink" onclick="openTab(event, 'In progress')">In progress Projects</button>
+        </div>
+        <hr>
+        <div id="Work" class="tabcontent">
+            
+            <div class="project">
+                
+                <div class="title-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/header_spanish.jpg?t=1726622432" alt="Arcane Ascent" width="400">
+                    <h3>Arcane Ascent Roguelike Deckbuilder - Word Games (2024)</h3>
+                    <p>Steam link: <a href="https://store.steampowered.com/app/3205630/Arcane_Ascent">https://store.steampowered.com/app/3205630/Arcane_Ascent</a></p>                
+                </div>
+
+                
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/eventos-2__1_.gif?t=1726622432" alt="Witch and bats" width="400">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/aTAQUES_1___1_.gif?t=1726622432" alt="Witch and bats" width="400">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/Enemigos-2__1_.gif?t=1726622432" alt="Witch and bats" width="400">
+                </div>
+            
+                <div class="video-container">
+                    <video width="420" height="315" controls>
+                        <source src="https://video.akamai.steamstatic.com/store_trailers/257053082/movie480_vp9.webm?t=1726622427" type="video/mp4">
+                        
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="description-container">
+                    <p>I developed an MVP (Minimum Viable Product) deck-building game inspired by "Slay the Spire". The game features strategic mechanics, unique cards and progressive challenges.</p>
+                    <h4><u>Project Contributions:</u></h4>
+                    <ul>
+                        <li>Game flow programming.</li>
+                        <li>Combat programming using cards and items.</li>
+                        <li>Logic of 96 cards.</li>
+                        <li>Implementation of life and mana systems.</li>
+                        <li>Enemy and ally action logic.</li>
+                        <li>Logic of creation of towers of the game.</li>
+                        <li>Enemy group selection system based on tower level and room type.</li>
+                        <li>System of delivery of prizes after combat.</li>
+                        <li>Logic of events that the player can interact with.</li>
+                        <li>Logic of various relics.</li>
+                        <li>Logic of various status effects and powers, including unique enemy powers.</li>
+                        <li>Full implementation of the interface.</li>
+                        <li>Language implementation through Unity's Localization plugin.</li>
+                        <li>Use of scriptableobjects.</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="project">
+
+                <div class="title-container">
+                    <h3>Witch and bats - Dino Squire</h3>
+                    <img src="https://img.itch.zone/aW1nLzE1MzA0MjM0LmpwZWc=/original/lQ09QH.jpeg" alt="Witch and bats" width="400">
+                    <p>Itch.io link: <a href="https://dinosquire.itch.io/witch-and-bats">https://dinosquire.itch.io/witch-and-bats</a></p>
+                </div>
+
+                <div class="image-container">                    
+                  <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMzODU3Mi5naWY=/original/ZoLy16.gif" alt="Witch and bats" width="400">
+                  <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMwNDIwMi5wbmc=/original/nt8avs.png" alt="Witch and bats" width="400">
+                  <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMwNDIwNy5wbmc=/original/SbSCG5.png" alt="Witch and bats" width="400">
+                </div>
+
+                <div class="video-container">
+                    <iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/5r30qQlEQmg">
+                    </iframe>
+                </div>
+                
+                <div class="description-container">
+                    <p>Programmed this little 2d action game.</p>
+                    <h4><u>Project Contributions:</u></h4>
+                    <ul>
+                        <li>Game flow programming.</li>
+                        <li>Gameplay.</li>
+                        <li>Language implementation through Unity's Localization plugin.</li>
+                        <li>Use of scriptableobjects.</li>
+                        <li>Art gallery.</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div id="Personal" class="tabcontent">
+            <div class="project">
+                
+                <div class="title-container">
+                    <img src="https://img.itch.zone/aW1nLzEzNjY2NTM3LmpwZw==/315x250%23c/NMiW8B.jpg" alt="Until death" width="400">
+                    <h3>Until death</h3>
+                    <p>Itch.io link: <a href="https://reyndev.itch.io/until-death">https://reyndev.itch.io/until-death</a></p>                
+                </div>
+
+                
+                <div class="image-container">
+                    <img src="https://img.itch.zone/aW1hZ2UvMjI4MzgzNS8xMzY2NjYwNy5wbmc=/794x1000/cPZiYL.png" alt="Until death" width="400">
+                    <img src="https://img.itch.zone/aW1hZ2UvMjI4MzgzNS8xMzY2NjYwOC5wbmc=/794x1000/mbQ0QC.png" alt="Until death" width="400">
+                 </div>
+            
+
+                <div class="description-container">
+                    <p>Small 2D topdown survivor game</p>
+                    <h4><u>Feature keys:</u></h4>
+                    <ul>
+                        <li>Use of UniRX.</li>
+                        <li>Use of scriptableobjects.</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="project"></div>
+                
+                <div class="title-container">
+                    <img src="https://img.itch.zone/aW1nLzEzMDg3NDkwLmpwZWc=/315x250%23c/Pzz3AG.jpeg" alt="Pirate pearls" width="400">
+                    <h3>Pirate pearls</h3>
+                    <p>Itch.io link: <a href="https://reyndev.itch.io/pirate-pearls">https://reyndev.itch.io/pirate-pearls</a></p>                
+                </div>
+
+                
+                <div class="image-container">
+                    <img src="https://img.itch.zone/aW1nLzEzODk3MTE5LmdpZg==/original/kz4X8A.gif" alt="Pirate pearls" width="400">
+                    <img src="https://img.itch.zone/aW1nLzE0MTY1ODU0LnBuZw==/original/molq0o.png" alt="Pirate pearls" width="400">
+                 </div>
+            
+
+                <div class="description-container">
+                    <p>Small 2D topdown competitive up to 4 players</p>
+                    <h4><u>Feature keys:</u></h4>
+                    <ul>
+                        <li>Use of Unity new Input System, you can play with up to 2 players on the keyboard<br> or with up to 4 players using both keyboard and gamepads.</li>
+                        <li>Enemy IA</li>
+                        <li>Use of UniRX.</li>
+                        <li>Use of scriptableobjects.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="In progress" class="tabcontent"></div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:rey.nicolas.92@gmail.com">rey.nicolas.92@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/reynicolasesteban" target="_blank">linkedin.com/in/reynicolasesteban</a></p>
+        <p><br><p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 My Name. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
