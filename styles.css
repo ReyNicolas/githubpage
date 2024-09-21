@@ -96,6 +96,11 @@ a:hover {
       }
 
 
+      .contact {        
+        text-align: left; 
+        max-width:1000px;
+      }
+
 /* description */
     .description-container ul {
         padding: 0;
