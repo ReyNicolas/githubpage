@@ -105,6 +105,7 @@ a:hover {
 
     .description-container ul li {
         margin-bottom: 10px;
+        max-width: 600px;
     }
 
     .description-container p {
