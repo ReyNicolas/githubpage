@@ -161,3 +161,112 @@ a:hover {
     .tabcontent.active {
         display: block;
     }
+
+    /*///////////// Shadow over innsmouth style START /////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+:root{
+    --white: #fbfada;
+    --black: #010604;
+}
+
+.innsmouth{
+    font-family: "Libre Baskerville", serif;
+    color: var(--white);
+    background-color: var(--black);
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Enlaces */
+.innsmouth a{
+    color: #808933;
+}
+
+.innsmouth a:visited{
+    color: #a79b22;
+}
+
+/* Imagen de fondo */
+.innsmouth .background_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    /* filter: blur(2px); */
+}
+
+/* Title */
+.innsmouth .title-container{
+    text-align: center;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 10;
+}
+.innsmouth .title-container .cursive{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 1.5em;
+}
+
+
+/* Images */
+.innsmouth .image-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.innsmouth .image-container img:nth-child(1){
+    rotate: -5deg;
+}
+
+.innsmouth .image-container img:nth-child(2){
+    rotate: -1deg;
+}
+
+.innsmouth .image-container img:nth-child(3){
+    rotate: 3deg;
+}
+
+/* Description */
+.innsmouth .description-container{
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.innsmouth .description-container .description{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.innsmouth .description-container .list-contributions{
+    width: fit-content;
+    margin: auto;
+    rotate: -5deg;
+    /* background-color: var(--white); */
+    background-image: url("images/background_menus_1.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--black);
+    padding: 12px 20px;
+}
+
+.innsmouth .description-container .list-contributions h4{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 24px;
+}
+
+.innsmouth .description-container .list-contributions li{
+    font-weight: 900;
+    padding-bottom: 8px;
+}
+/*///////////// Shadow over innsmouth style END /////////////*/
