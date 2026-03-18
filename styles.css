@@ -164,3 +164,8 @@ a:hover {
     .tabcontent.active {
         display: block;
     }
+
+.image-container img {
+  max-height: 200px;
+  width: auto; /* mantiene proporción */
+}
