@@ -10,545 +10,485 @@
     <header>
         <h1>Rey Nicolás Esteban</h1>
         <h2>Unity Game Developer</h2>
-    </header>
-    
-    <section id="projects" class="center-container">
-        <div class="tabs">
-            <button class="tablink" onclick="openTab(event, 'Work')">Work Projects</button>
-            <button class="tablink" onclick="openTab(event, 'In progress')">In Progress Projects</button>
-            <button class="tablink" onclick="openTab(event, 'Collaborations')">Cancelled/Concluded Collaborations</button>
-            <button class="tablink" onclick="openTab(event, 'Personal')">Personal Projects</button>
-            <button class="tablink" onclick="openTab(event, 'About Me')">About Me</button>
-            <button class="tablink" onclick="openTab(event, 'Contact')">Contact</button>
-        </div>
         
-        <hr>
-
-        <div id="Work" class="tabcontent">
-            
-            <div class="project">
-                
-                <div class="title-container">
-                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/header_spanish.jpg?t=1726622432" alt="Arcane Ascent" width="400">
-                    <h3>Arcane Ascent Roguelike Deckbuilder - Word Games (2024) (C# Unity)</h3>
-                    <p>Steam link: <a href="https://store.steampowered.com/app/3205630/Arcane_Ascent">https://store.steampowered.com/app/3205630/Arcane_Ascent</a></p>                
-                </div>
-
-                
-                <div class="image-container">
-                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/eventos-2__1_.gif?t=1726622432" alt="Witch and bats" width="400">
-                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/aTAQUES_1___1_.gif?t=1726622432" alt="Witch and bats" width="400">
-                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/Enemigos-2__1_.gif?t=1726622432" alt="Witch and bats" width="400">
-                </div>
-            
-                <div class="video-container">
-                    <video controls>
-                        <source src="https://video.akamai.steamstatic.com/store_trailers/257053082/movie480_vp9.webm?t=1726622427" type="video/mp4">
-                        
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-
-                <div class="description-container">
-                    <p>I developed an MVP (Minimum Viable Product) deck-building game inspired by "Slay the Spire" as Unity Gamedev.</p>
-                    <h4><u>Key Project Contributions (Unity Gamedev):</u></h4>
-                    <ul>
-                        <li>Architected and implemented a data-driven card combat and item system utilizing <b>ScriptableObjects</b> for scalable design.</li>
-                        <li>Engineered the core gameplay logic for 90+ unique cards, relic behaviors, and turn-based status effects.</li>
-                        <li>Developed dynamic systems for procedurally-influenced tower progression, including merchant rooms, event logic, and enemy encounter selection algorithms.</li>
-                        <li>Built and fully integrated the game's UI/UX flow decoupled from core gameplay logic.</li>
-                        <li>Implemented multi-language support leveraging <b>Unity Localization</b>.</li>
-                    </ul>
-                </div>
-                
-            </div>
-            <hr>
-            <div class="project">
-                
-                <div class="title-container">
-                    <h3>Space Pearls - Dino Squire (C# Unity)</h3> 
-                    <img src="images/SpacePearls.png" alt="Space pearls" width="400">           
-                    <p>Itch.io link: <a href="https://dinosquire.itch.io/space-pearls">https://dinosquire.itch.io/space-pearls</a></p>
-                    
-                </div>
-                
-                <div class="image-container">
-                    <img src="images/space1.png" alt="Space pearls" width="400">
-                    <img src="images/space2.png" alt="Space pearls" width="400">
-                    <img src="images/space3.png" alt="Space pearls" width="400">
-                </div>
-            
-                <div class="description-container">
-                    <p>Small 2D topdown competitive up to 4 players (New and better version of Pirate Pearls)</p>
-                    <h4><u>Project Contributions:</u></h4>
-                    <h4><b>Game designer</b></h4>
-                    <h4><b>Sole Unity Gamedev:</b></h4>
-                    <ul>
-                        <li>Designed the core competitive mechanics and balanced the multiplayer gameplay flow.</li>
-                        <li>Engineered the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
-                        <li>Implemented the <b>Unity New Input System</b> to support local 4-player split-input with seamless keyboard and gamepad mapping.</li>
-                        <li>Developed enemy AI behaviors leveraging <b>2D NavMesh</b></li>
-                        <li>Designed a data-driven content architecture using <b>ScriptableObjects</b> for powers and modular game flow events.</li>
-                        <li>Fully implemented and integrated the UI/UX responsive interface with the game's reactive data systems.</li>
-                    </ul>
-                </div>
-                
-            </div>
-            <hr>
-            <div class="project">
-
-                <div class="title-container">
-                    <h3>Witch and bats - Dino Squire (2024) (C# Unity)</h3>
-                    <img src="https://img.itch.zone/aW1nLzE1MzA0MjM0LmpwZWc=/original/lQ09QH.jpeg" alt="Witch and bats" width="400">
-                    <p>Itch.io link: <a href="https://dinosquire.itch.io/witch-and-bats">https://dinosquire.itch.io/witch-and-bats</a></p>
-                    <p>Google Play link: <a href="https://play.google.com/store/apps/details?id=com.DinoDigital.Witchandbats">https://play.google.com/store/apps/details?id=com.DinoDigital.Witchandbats</a></p>
-                </div>
-
-                <div class="image-container">                    
-                  <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMzODU3Mi5naWY=/original/ZoLy16.gif" alt="Witch and bats" width="400">
-                  <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMwNDIwMi5wbmc=/original/nt8avs.png" alt="Witch and bats" width="400">
-                  <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMwNDIwNy5wbmc=/original/SbSCG5.png" alt="Witch and bats" width="400">
-                </div>
-
-                <div class="iframe-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5r30qQlEQmg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-                <div class="description-container">
-                    <p>Little 2D action game.</p>
-                    <h4><u>Project Contributions (Sole Unity Gamedev):</u></h4>
-                    <ul>
-                        <li>Designed and implemented a modular <b>Finite State Machine (FSM)</b> to drive boss AI behaviors and combat phases.</li>
-                        <li>Engineered the core gameplay loop.</li>
-                        <li>Structured a data-driven content pipeline using <b>ScriptableObjects</b>.</li>
-                        <li>Developed and fully integrated the responsive UI/UX system, including a dynamic unlockable art gallery.</li>
-                        <li>Implemented multi-language support leveraging the official <b>Unity Localization</b> package.</li>
-                    </ul>
-                </div>
-                
-            </div>
-
-        </div>
-
-        <div id="In progress" class="tabcontent">
-            <div class="project">
-                
-                <div class="title-container">
-                    <h3>Gacha Marbles - Dino Squire (C# Unity)</h3>
-                    <p class="project-tagline"><b>MPVP 2025 (ADVA) Mentorship Selection</b></p>
-                    <p>Itch.io link: <a href="https://dinosquire.itch.io/gacha-marbles">https://dinosquire.itch.io/gacha-marbles</a></p>            
-                </div>
-
-                
-                <div class="image-container">
-                    <img src="images/gachamarbles1.png" alt="Gacha Marbles" width="400">
-                    <img src="images/gachamarbles2.png" alt="Gacha Marbles" width="400">
-                    <img src="images/gachamarbles3.png" alt="Gacha Marbles" width="400">
-                </div>
-            
-
-                <div class="description-container">
-                    <p>"Casual 2D battle and collection game"</p>
-                    <h4><u>-Game designer and Lead programmer-</u></h4>
-                    <h4><u>Key Project Contributions (Unity Gamedev):</u></h4>
-                    <ul>
-                        <li>Architected the core battle event resolution engine and state managements.</li>
-                        <li>Engineered a modular ability pipeline using <b>ScriptableObjects</b> and <b>SerializeReference</b> to drive individual marble behaviors.</li>
-                        <li>Implemented a robust local <b>Data Persistence</b> system for inventory, unlocks, and player collection states.</li>
-                        <li>Developed a <b>Tooltip System</b> featuring dynamic keyword detection on hover for enhanced player onboarding.</li>
-                        <li>Integrated a seamless <b>Dual Grid Tile System</b> to streamline and accelerate 2D level design and environment creation.</li>
-                        <li>Polished game feel, juice, and UI transitions by scripting tweens and feedback triggers using <b>DOTween</b> and <b>Feel</b>.</li>
-                        <li>Fully implemented the responsive user interface and integrated multi-language support via <b>Unity Localization</b>.</li>
-                    </ul>
-                </div>
-                
-            </div>           
-            <hr>
-             <div class="project">
-                
-                <div class="title-container">
-                    <h3>Content Creator Collaboration – Mechanics &amp; Systems Prototyping</h3>
-                    <p>Channel's link: <a href="https://youtube.com/@NahuelEscu">https://youtube.com/@NahuelEscu</a></p>            
-                </div>    
-                
-                 <div class="image-container">
-                    <img src="images/youtube.png" alt="Gacha Marbles" width="800">
-                </div>
-
-                <div class="description-container">
-                    <h4>Collaborated with a game development content creator to design and engineer playable Unity prototypes inspired by iconic AAA mechanics and popular media franchises. Responsible for translating high-level design concepts into solid, production-ready technical architecture.</h4>
-                    
-                        <h4>The Last of us 2 - mechanics prototype</h4>
-                        <ul>
-                            <li>Engineered stealth-focused AI utilizing modular<b>(FSM)</b> for enemy alert states and patrolling behaviors.</li>
-                            <li>Implemented a dynamic, context-aware <b>Heartbeat mechanic</b> linked to player stealth and physical exertion.</li>
-                            <li>Developed the signature <b>Listen Mode</b> mechanic, leveraging raycasting and custom rendering layers for wall-penetrating enemy detection.</li>
-                            <li>Managed source control and team synchronization utilizing <b>Unity Version Control</b>.</li>
-                        </ul>                    
-                        <p>Unity project: <a href="https://github.com/NahuelEscujuri/TLOU">https://github.com/NahuelEscujuri/TLOU</a></p>
-                                          
-                        <h4>Chainsawman - hack and slash prototype</h4>
-                         <div class="image-container">
-                            <img src="images/CM1.png" alt="Gacha Marbles" width="400">
-                            <img src="images/CM3.png" alt="Gacha Marbles" width="400">
-                            <img src="images/CM2.png" alt="Gacha Marbles" width="400">
-                            <img src="images/CM4.png" alt="Gacha Marbles" width="400">
-                        </div>
-                        <ul>
-                          <li>Architected a central <b>Battle Service Locator</b> to decouple dependency injection and streamline runtime system management.</li>
-                            <li>Engineered a centralized <b>Battle Bootstrapper</b> to handle deterministic initialization of game objects, timers, and user configurations prior to gameplay.</li>
-                            <li>Designed <b>Object Pooling systems</b> for particle effects, audio sources, and concurrent enemy spawning.</li>
-                            <li>Developed a multi-phase Boss AI system featuring spatial behaviors, movement oscillation, dynamic minion spawning, and physics-based projectile throwing (<em>AllyLauncher</em>).</li>
-                            <li>Implemented a <b>Data-Driven architecture</b> using <b>ScriptableObjects</b> as Shared Values to exchange runtime state across decoupled systems without hard references.</li>
-                            <li>Established an architecture based on <b>Event Channels</b> via ScriptableObjects to handle scalable, decoupled communication between core gameplay systems and the UI/UX layer.</li>
-                        </ul>
-                        <p>Unity project: <a href="https://github.com/OuroPrax/Chainsaw_man">https://github.com/OuroPrax/Chainsaw_man</a></p>
-                        <p>Itchio: <a href="https://ouroprax.itch.io/chainsaw-man">https://ouroprax.itch.io/chainsaw-man</a></p>
-                </div>
-                
-            </div>           
-            <hr>
-            <div class="project">
-                
-                <div class="title-container">
-                    <h3>Tactic RPG game - Dino Squire (C# Unity)</h3>            
-                </div>
-
-                
-                <div class="image-container">
-                    <img src="images/rpg1.png" alt="Tactic RPG game" width="400">
-                    <img src="images/rpg2.png" alt="Tactic RPG game" width="400">
-                    <img src="images/rpg3.png" alt="Tactic RPG game" width="400">
-                </div>
-            
-
-                <div class="description-container">
-                    <p>2D Turn-based tactical RPG roguelike</p>
-                    <h4><u>Project Contributions(Sole Unity Gamedev):</u></h4>
-                    <ul>                         
-                        <li>Engineered the entire turn-based combat loop including a deterministic battle event resolver, progression systems, and global game state management.</li>
-                        <li>Engineered a node-based event map generation pipeline inspired by <em>Slay the Spire</em>, including procedurally-tailored merchant inventory pools based on active party composition.</li>
-                        <li>Implemented an RPG meta-progression system featuring dynamic character leveling, weapon selection constraints, and branching class advancements.</li>
-                        <li>Developed a highly flexible ability framework supporting modular execution for active, reactive, and passive behaviors.</li>
-                        <li>Designed a data-driven architecture using <b>ScriptableObjects</b> and <b>SerializeReference</b> for characters, abilities, weapons, and status effects.</li>
-                        <li>Built an <b>Ability Targeting &amp; Launch System</b> featuring grid range calculation, custom area-of-effect (AoE) zones, and strict Line of Sight validation algorithms (applicable to both the range and AoE).</li>
-                        <li>Programmed a grid navigation and pathfinding system supporting partial movement paths and obstacle detection.</li>
-                        <li>Implemented a comprehensive local <b>Data Persistence</b> system.</li>
-                        <li>Implemented a <b>Tooltip System</b>, including dynamic hover keyword detection.</li>
-                        <li>Fully integrated the responsive UI/UX layer and managed multi-language support via <b>Unity Localization</b>.</li>
-                    </ul>
-                </div>
-                
-            </div>           
-            <hr>
-            
-
-        </div>
-
-        <div id="Collaborations" class="tabcontent">
-
-            <div class="project">
-                
-                <div class="title-container">
-                    <h3>The mushroom legacy (2025-2026) (C# Unity) (Concluded Collaboration)</h3>      
-                     <p>Itch.io link: <a href="https://aysunza.itch.io/the-mushroom-legacy">https://aysunza.itch.io/the-mushroom-legacy</a></p>  
-                </div>
-
-                 <div class="image-container">
-                     <img src="images/mush.png" alt="Tactic RPG game" width="400">
-                    <img src="images/mush-1.gif" alt="Tactic RPG game" width="400">
-                    <img src="images/mush-2.gif" alt="Tactic RPG game" width="400">
-                </div>
-                
-                <div class="description-container">
-                    <p>Collaborative Unity project where I was the sole Unity Dev from the beginning until March 2026.<br> The project started from a basic controller (MoreMountains, only running) and was scaled into a complete ecosystem of interconnected systems: stamina-based player abilities, inventory, liquids, dungeon generation, and enemy AI.<br> I decided to conclude my collaboration and step away from the project.</p>
-                    
-                    <h4><u>Project Contributions (Sole Unity Gamedev):</u></h4>
-                    <ul>
-                        <li><b>Procedural Dungeon Generator:</b> Created a system that generates maps using fully procedural rooms or predefined templates connected by valid doors.</li>
-                        <li><b>Inventory &amp; Equipment System:</b> Developed an inventory with mountable storage and item actions (drop, use, equip, unequip, transfer), fully integrated with equipment and item usage logic.</li>
-                        <li><b>Dual Grid Liquid System:</b> Built an expansion-ready liquid simulation featuring directional flow, wall/abyss interactions, visual effects when falling, and entity/object interaction.</li>
-                        <li><b>Liquid Detection:</b> Implemented a system that detects liquids under the player and entities, replacing normal movement effects (run, jump, dash) with custom particle feedback.</li>
-                        <li><b>Player Controller &amp; Abilities:</b> Programmed movement mechanics (running, jumping, dashing, pushing) governed by stamina costs and a capability-blocking logic flow.</li>
-                        <li><b>Object Handling &amp; Aiming:</b> Developed logic for grabbing, releasing, and carrying objects on the head, including a forced-throw trigger when hit or dashing, and directional aiming for throwing items with custom hit logic per item.</li>
-                        <li><b>Corpse Controller:</b> Designed a system that manages dynamic bodies using modular components to execute specific actions upon generation (such as custom storage components, visual display updates, or auto-destruction timers).</li>
-                        <li><b>Environment Elements &amp; Props:</b> Programmed interactive hazards and items, including chests (unlocking, setting contents, and inventory interaction), spike traps, pushable items, collectible pushables, and barrels that release damage or liquids.</li>
-                        <li><b>Safe Zone Finder:</b> Built a positioning tool to find valid, safe areas for object and prop placement.</li>
-                        <li><b>Abyss System:</b> Engineered an optimized checking system for entities, objects, and liquids falling into the abyss.</li>
-                        <li><b>Enemy AI &amp; Slime Logic:</b> Implemented enemy pathfinding for patrolling, chasing, and attacking states, alongside a special slime behavior that handles division on death, item absorption, and movement logic to actively avoid non-slime liquids.</li>
-                        <li><b>Status Effects:</b> Developed a status effects logic applicable to both the player and external entities.</li>
-                        <li><b>Game Feel &amp; Juicing:</b> Polished game feel, visual feedback, by scripting smooth tweens and feedback triggers using <b>DOTween</b> and <b>Feel</b> (More Mountains).</li>
-                    </ul>
-                </div>
-
-            </div>
-            <hr>
-
-
-
-             <div class="project">
-                
-                <div class="title-container">
-                    <h3> Turf Wars Rabbits - <a target="_blank" href="https://www.linkedin.com/company/white-beach-studio">White Beach Studio</a> (2025) (C# Unity) (Project Cancelled)</h3>            
-                </div>
-
-                
-              <div class="image-container">
-                <img src="images/TurfWarsRabbitsLogo.png" alt="Logo" style="max-height:200px; width:auto;">
-                <img src="images/TWRFondo.png" alt="BG" style="max-height:200px; width:auto;">
-                <img src="images/TWRBunnys.png" alt="Ch" style="max-height:200px; width:auto;">
-                </div>
-
-            
-
-                <div class="description-container">
-                    <p>Multiplayer party game for 2–4 players. I contributed as programmer, implementing power-ups, UI, and responsive feedback using MoreMountains Feel. The project was cancelled by studio decision.</p>
-                    <h4><u>Project Contributions (Unity Gamedev):</u></h4>
-                    <ul>
-                        <li>Implemented some powerups.</li>
-                        <li>Integrated Feel (MoreMountains) for responsive feedback and polished player experience</li>
-                        <Li>Implementation of UIs</li>
-                    </ul>
-                </div>
-                
-            </div>
-            <hr>
-
-            <div class="project">
-                
-                <div class="title-container">
-                    <h3> Shadow over Innsmouth - <a target="_blank" href="https://x.com/StudioSabiDev">Studio Sabi</a> (C# Unity) (Project Cancelled)</h3>            
-                </div>
-
-                
-                <div class="image-container">
-                    <img src="images/terrorgame1.png" alt="Terror game" width="400">
-                    <img src="images/terrorgame2.png" alt="Terror game" width="400">
-                    <img src="images/terrorgame3.png" alt="Terror game" width="400">
-                </div>
-            
-
-                <div class="description-container">
-                    <p>Stealth-based horror game inspired by H.P. Lovecraft. I programmed game flow, AI state machine, stealth mechanics, and sanity effects. The project was cancelled during its prototype stage (2024)</p>
-                    <h4><u>Project Contributions (Unity Gamedev):</u></h4>
-                    <ul>
-                        <li>Engineered the core game loop, global game flow programming, and general state management.</li>
-                        <li>Developed a custom <b>AI State Machine</b> to handle enemy behaviors, patrolling paths, and dynamic combat investigation.</li>
-                        <li>Programmed an <b>AI Detection &amp; Stealth System</b>, implementing vision/hearing sensing cones and alert screaming mechanics to signal nearby threats.</li>
-                        <li>Designed integrated <b>Sanity &amp; Stamina</b> core player statistics.</li>
-                        <li>Coded dynamic environmental feedback based on player sanity levels, triggering screen shakes, contextual audio noises, and real-time post-processing effects.</li>
-                        <li>Implemented a surface-aware <b>Footstep Audio System</b> that dynamically changes sound effects depending on the material type the player walks on.</li>
-                        <li>Leveraged <b>ScriptableObjects</b> to manage modular data architecture.</li>
-                        <li>Fully integrated the responsive user interface (UI) and managed multi-language support via <b>Unity Localization</b>.</li>
-                    </ul>
-                </div>
-                
-            </div>
-            <hr>
-
-            <div class="project">
-                
-                <div class="title-container">
-                    <h3>Cars battle game (2024) (C# Unity) (Concluded Collaboration)</h3>            
-                </div>
-                
-                <div class="image-container">
-                    <img src="images/car.jpg" alt="Cars battle game" width="400">
-                    <img src="images/car2.jpg" alt="Cars battle game" width="400">
-                </div>
-            
-                <div class="description-container">
-                    <p>A fast-paced vehicular combat game featuring split-screen multiplayer, interactive arenas, and dynamic weapon mechanics.</p>
-                    <h4><u>Project Contributions(Unity Gamedev):</u></h4>
-                    <ul>
-                        <li>Implemented multiplayer local integration utilizing the new <b>Unity Input System</b> configured for <b>split-screen</b> gameplay.</li>
-                        <li>Configured dynamic multi-camera tracking per player leveraging <b>Cinemachine</b> virtual camera structures.</li>
-                        <li>Programmed modular gameplay logic for vehicle-specific weapons, offensive powers, and unique special abilities.</li>
-                        <li>Engineered environment control structures and interactive arena events, including jump platforms, explosive hazards, and dynamic stage elements.</li>
-                    </ul>
-                </div>
-                
-            </div>
-            <hr>
-            
-            <div class="project">
-            
-                <div class="title-container">
-                    <h3>Don´t lose your Sanity (2024) (C# Unity) (Project Cancelled)</h3>            
-                </div>
-            
-                <div class="image-container">
-                </div>
-        
-                <div class="description-container">
-                    <p>A multiplayer party game inspired by social deduction mechanics. Players take on unique characters with special abilities: some must complete missions across the map, while others secretly act as impostors, trying to eliminate the rest without being discovered. The project was cancelled in its
-                        early stages</p>
-                    <h4><u>Project Contributions(Unity Gamedev):</u></h4>
-                    <ul>
-                        <li>Integrated core gameplay mechanics with <b>Photon Unity Networking (PUN)</b>, ensuring synchronized multiplayer interactions and state replication across clients.</li>
-                        <li>Designed and programmed unique character abilities, handling networked activation, custom animations, and cross-client gameplay effects.</li>
-                        <li>Developed a synchronized <b>Inventory &amp; Item Flow System</b> for managing items that players could collect, hold, use, or swap in active hand states over the network.</li>
-                        <li>Collaborated on technical documentation, system design, and early architecture prototyping before project cancellation.</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-
-            <div class="project">
-            
-                <div class="title-container">
-                    <h3>Overcooked like game - Condor Entertainment (2024) (C# Unity) (Project Cancelled)</h3>            
-                </div>
-            
-                <div class="image-container">
-                </div>
-        
-                <div class="description-container">
-                    <p>A multiplayer party game inspired by Overcooked, where each character
-                        would have unique skills and stats. The project was cancelled in its
-                        early stages.</p>
-                    <h4><u>Project Contributions (Unity Gamedev):</u></h4>
-                    <ul>
-
-                          <li>Designed the initial data and technical architecture for character skills and player stats.</li>
-                          <li>Collaborated on early technical prototyping, systems documentation, and design specifications before project cancellation.</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-
-        </div>
-
-        <div id="Personal" class="tabcontent">
-           
-            <div class="project">
-                
-                <div class="title-container">
-                    <img src="https://img.itch.zone/aW1nLzEzMDg3NDkwLmpwZWc=/315x250%23c/Pzz3AG.jpeg" alt="Pirate pearls" width="400">
-                    <h3>Pirate pearls (C# Unity)</h3>
-                    <p>Itch.io link: <a href="https://reyndev.itch.io/pirate-pearls">https://reyndev.itch.io/pirate-pearls</a></p>   
-                    <p>Github link: <a href="https://github.com/ReyNicolas/PearlsPirates">https://github.com/ReyNicolas/PearlsPirates</a></p>               
-                </div>
-
-                
-                <div class="image-container">
-                    <img src="https://img.itch.zone/aW1nLzEzODk3MTE5LmdpZg==/original/kz4X8A.gif" alt="Pirate pearls" width="400">
-                    <img src="https://img.itch.zone/aW1nLzE0MTY1ODU0LnBuZw==/original/molq0o.png" alt="Pirate pearls" width="400">
-                </div>
-            
-
-                <div class="description-container">
-                    <p>Small 2D topdown competitive up to 4 players</p>
-                    <h4><u>Feature keys:</u></h4>
-                    <ul>
-                        <li>Designed the core competitive mechanics and balanced the multiplayer gameplay flow.</li>
-                        <li>Engineered the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
-                        <li>Implemented the <b>Unity New Input System</b> to support local 4-player split-input with seamless keyboard and gamepad mapping.</li>
-                        <li>Developed enemy AI behaviors leveraging <b>2D NavMesh</b></li>
-                        <li>Designed a data-driven content architecture using <b>ScriptableObjects</b> for powers and modular game flow events.</li>
-                        <li>Fully implemented and integrated the UI/UX responsive interface with the game's reactive data systems.</li>
-                    </ul>
-                </div>
-                
-            </div>
-
-            <hr>
-
-            <div class="project">
-                
-                <div class="title-container">
-                    <img src="https://img.itch.zone/aW1nLzEzNjY2NTM3LmpwZw==/315x250%23c/NMiW8B.jpg" alt="Until death" width="400">
-                    <h3>Until death (C# Unity)</h3>
-                    <p>Itch.io link: <a href="https://reyndev.itch.io/until-death">https://reyndev.itch.io/until-death</a></p> 
-                    <p>Github link: <a href="https://github.com/ReyNicolas/Beat-em-up">https://github.com/ReyNicolas/Beat-em-up</a></p>               
-                </div>
-                
-                <div class="image-container">
-                    <img src="https://img.itch.zone/aW1hZ2UvMjI4MzgzNS8xMzY2NjYwNy5wbmc=/794x1000/cPZiYL.png" alt="Until death" width="400">
-                    <img src="https://img.itch.zone/aW1hZ2UvMjI4MzgzNS8xMzY2NjYwOC5wbmc=/794x1000/mbQ0QC.png" alt="Until death" width="400">
-                 </div>
-            
-
-                <div class="description-container">
-                    <p>Small 2D topdown survivor game</p>
-                    <h4><u>Feature keys:</u></h4>
-                    <ul>
-                        <li>Developed the entire game framework, including asynchronous game loops, wave timers, and event-driven data streams leveraging <b>UniRx</b> (Reactive Extensions for Unity).</li>
-                        <li>Architected a data-driven system using <b>ScriptableObjects</b> to independently manage enemy wave configurations, spawn rules, and player statistics.</li>
-                        <li>Programmed the core combat mechanics, enemy spawning pipeline, top-down player locomotion, and real-time UI updates via reactive property bindings.</li>
-                    </ul>
-                </div>
-                
-            </div>
-
-            <div class="project">
-                
-                <div class="title-container">
-                    <h3>Topic twister (Quark Academy - Unity Engine final project)</h3>            
-                </div>
-                
-                <div class="image-container">
-                    <img src="images/topic.png" alt="Topic twister" width="400">
-                    <img src="images/topic1.png" alt="Topic twister" width="400">
-                    <img src="images/topic2.png" alt="Topic twister" width="400">
-                 </div>
-            
-
-                <div class="description-container">
-                    <p>Unity trivia game showcasing microservices architecture. Clean Architecture. TDD
-                    <br>  </p>
-                    <h2>Links</h2>
-                    <ul>
-                        <li><a href="https://github.com/ReyNicolas/TopicTwisterUnityProject">Unity</a></li>
-                        <li><a href="https://github.com/ReyNicolas/TopicTwisterMainAPI">Main .NET API</a></li>
-                        <li><a href="https://github.com/ReyNicolas/TopicTwisterKotlinKtor">Ktor Player Microservice API</a></li>
-                    </ul>
-                
-                    <h2>Tools Used</h2>
-                    <ul>
-                        <li>IntelliJ IDEA version: 2023.1.3</li>
-                        <li>Kotlin</li>
-                        <li>Ktor</li>
-                        <li>JUnit</li>
-                        <li>Mockito</li>
-                        <li>Firebase Firestore</li>
-                    </ul>
-                
-                    <h2>Methodologies Used</h2>
-                    <ul>
-                        <li>Clean Architecture</li>
-                        <li>Pair programming</li>
-                        <li>TDD</li>
-                    </ul> 
-                </div>
-                
-            </div>
-
-        </div>
-
-        <div id="About Me" class="tabcontent">
-            <div class="contact">
-                <h2>About Me</h2>
-                
-                <div class="image-container">
+        <div class="image-container">
                      <img src="images/AboutMe.png" alt="About Me" width="400">
-                </div>
-            
-                <p>
-                   I am a <b>Game Programmer</b> specialized in technical architecture, data-driven design, and decoupled systems. I thrive on solving the intricate challenges behind <b>multiplayer mechanics</b>, advanced AI behaviors, and physics-based interactions. My focus is on turning complex design documents into clean, event-driven C# code, prioritizing scalable structures that allow game prototypes to grow seamlessly into polished products.
-                </p>
-            </div>
-          </div>
+        </div>
         
-        <div id="Contact" class="tabcontent">
+        <h2>About Me</h2>     
+            <p>
+                I am a <b>Game Programmer</b> specialized in technical architecture, data-driven design, and decoupled systems. I thrive on solving the intricate challenges behind <b>multiplayer mechanics</b>, advanced AI behaviors, and physics-based interactions. My focus is on turning complex design documents into clean, event-driven C# code, prioritizing scalable structures that allow game prototypes to grow seamlessly into polished products.
+            </p>
+
             <h2>Contact</h2>
             <p>Email: <a href="mailto:rey.nicolas.92@gmail.com">rey.nicolas.92@gmail.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/reynicolasesteban" target="_blank">linkedin.com/in/reynicolasesteban</a></p>
             <p>Github: <a href="https://github.com/ReyNicolas" target="_blank">https://github.com/ReyNicolas</a></p>
             <p>Itch.io: <a href="https://reyndev.itch.io" target="_blank">https://reyndev.itch.io</a></p>
-        </div>
+    </header>
 
-    </section>
+
+    <h1><b>  Projects:  </b></h1>
+            
+
+        <!-- Arcane -->
+        <div class="project">
+            
+            <div class="title-container">
+                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/header_spanish.jpg?t=1726622432" alt="Arcane Ascent" width="400">
+                <h3>Arcane Ascent Roguelike Deckbuilder - Word Games (2024) (C# Unity)</h3>
+                <p>Steam link: <a href="https://store.steampowered.com/app/3205630/Arcane_Ascent">https://store.steampowered.com/app/3205630/Arcane_Ascent</a></p>                
+            </div>
+
+            
+            <div class="image-container">
+                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/eventos-2__1_.gif?t=1726622432" alt="Witch and bats" width="400">
+                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/aTAQUES_1___1_.gif?t=1726622432" alt="Witch and bats" width="400">
+                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205630/extras/Enemigos-2__1_.gif?t=1726622432" alt="Witch and bats" width="400">
+            </div>
+        
+            <div class="video-container">
+                <video controls>
+                    <source src="https://video.akamai.steamstatic.com/store_trailers/257053082/movie480_vp9.webm?t=1726622427" type="video/mp4">
+                    
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="description-container">
+                <p>I developed an MVP (Minimum Viable Product) deck-building game inspired by "Slay the Spire" as Unity Gamedev.</p>
+                <h4><u>Key Project Contributions (Unity Gamedev):</u></h4>
+                <ul>
+                    <li>Architected and implemented a data-driven card combat and item system utilizing <b>ScriptableObjects</b> for scalable design.</li>
+                    <li>Engineered the core gameplay logic for 90+ unique cards, relic behaviors, and turn-based status effects.</li>
+                    <li>Developed dynamic systems for procedurally-influenced tower progression, including merchant rooms, event logic, and enemy encounter selection algorithms.</li>
+                    <li>Built and fully integrated the game's UI/UX flow decoupled from core gameplay logic.</li>
+                    <li>Implemented multi-language support leveraging <b>Unity Localization</b>.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <!-- Gacha Marbles -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3>Gacha Marbles - Dino Squire (C# Unity)</h3>
+                <p class="project-tagline"><b>MPVP 2025 (ADVA) Mentorship Selection</b></p>
+                <p>Itch.io link: <a href="https://dinosquire.itch.io/gacha-marbles">https://dinosquire.itch.io/gacha-marbles</a></p>            
+            </div>
+
+            
+            <div class="image-container">
+                <img src="images/gachamarbles1.png" alt="Gacha Marbles" width="400">
+                <img src="images/gachamarbles2.png" alt="Gacha Marbles" width="400">
+                <img src="images/gachamarbles3.png" alt="Gacha Marbles" width="400">
+            </div>
+        
+
+            <div class="description-container">
+                <p>"Casual 2D battle and collection game"</p>
+                <h4><u>-Game designer and Lead programmer-</u></h4>
+                <h4><u>Key Project Contributions (Unity Gamedev):</u></h4>
+                <ul>
+                    <li>Architected the core battle event resolution engine and state managements.</li>
+                    <li>Engineered a modular ability pipeline using <b>ScriptableObjects</b> and <b>SerializeReference</b> to drive individual marble behaviors.</li>
+                    <li>Implemented a robust local <b>Data Persistence</b> system for inventory, unlocks, and player collection states.</li>
+                    <li>Developed a <b>Tooltip System</b> featuring dynamic keyword detection on hover for enhanced player onboarding.</li>
+                    <li>Integrated a seamless <b>Dual Grid Tile System</b> to streamline and accelerate 2D level design and environment creation.</li>
+                    <li>Polished game feel, juice, and UI transitions by scripting tweens and feedback triggers using <b>DOTween</b> and <b>Feel</b>.</li>
+                    <li>Fully implemented the responsive user interface and integrated multi-language support via <b>Unity Localization</b>.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <!-- The mushroom legacy -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3>The mushroom legacy (2025-2026) (C# Unity) (Concluded Collaboration)</h3>      
+                    <p>Itch.io link: <a href="https://aysunza.itch.io/the-mushroom-legacy">https://aysunza.itch.io/the-mushroom-legacy</a></p>  
+            </div>
+
+                <div class="image-container">
+                    <img src="images/mush.png" alt="Tactic RPG game" width="400">
+                <img src="images/mush-1.gif" alt="Tactic RPG game" width="400">
+                <img src="images/mush-2.gif" alt="Tactic RPG game" width="400">
+            </div>
+            
+            <div class="description-container">
+                <p>Collaborative Unity project where I was the sole Unity Dev from the beginning until March 2026.<br> The project started from a basic controller (MoreMountains, only running) and was scaled into a complete ecosystem of interconnected systems: stamina-based player abilities, inventory, liquids, dungeon generation, and enemy AI.<br> I decided to conclude my collaboration and step away from the project.</p>
+                
+                <h4><u>Project Contributions (Sole Unity Gamedev):</u></h4>
+                <ul>
+                    <li><b>Procedural Dungeon Generator:</b> Created a system that generates maps using fully procedural rooms or predefined templates connected by valid doors.</li>
+                    <li><b>Inventory &amp; Equipment System:</b> Developed an inventory with mountable storage and item actions (drop, use, equip, unequip, transfer), fully integrated with equipment and item usage logic.</li>
+                    <li><b>Dual Grid Liquid System:</b> Built an expansion-ready liquid simulation featuring directional flow, wall/abyss interactions, visual effects when falling, and entity/object interaction.</li>
+                    <li><b>Liquid Detection:</b> Implemented a system that detects liquids under the player and entities, replacing normal movement effects (run, jump, dash) with custom particle feedback.</li>
+                    <li><b>Player Controller &amp; Abilities:</b> Programmed movement mechanics (running, jumping, dashing, pushing) governed by stamina costs and a capability-blocking logic flow.</li>
+                    <li><b>Object Handling &amp; Aiming:</b> Developed logic for grabbing, releasing, and carrying objects on the head, including a forced-throw trigger when hit or dashing, and directional aiming for throwing items with custom hit logic per item.</li>
+                    <li><b>Corpse Controller:</b> Designed a system that manages dynamic bodies using modular components to execute specific actions upon generation (such as custom storage components, visual display updates, or auto-destruction timers).</li>
+                    <li><b>Environment Elements &amp; Props:</b> Programmed interactive hazards and items, including chests (unlocking, setting contents, and inventory interaction), spike traps, pushable items, collectible pushables, and barrels that release damage or liquids.</li>
+                    <li><b>Safe Zone Finder:</b> Built a positioning tool to find valid, safe areas for object and prop placement.</li>
+                    <li><b>Abyss System:</b> Engineered an optimized checking system for entities, objects, and liquids falling into the abyss.</li>
+                    <li><b>Enemy AI &amp; Slime Logic:</b> Implemented enemy pathfinding for patrolling, chasing, and attacking states, alongside a special slime behavior that handles division on death, item absorption, and movement logic to actively avoid non-slime liquids.</li>
+                    <li><b>Status Effects:</b> Developed a status effects logic applicable to both the player and external entities.</li>
+                    <li><b>Game Feel &amp; Juicing:</b> Polished game feel, visual feedback, by scripting smooth tweens and feedback triggers using <b>DOTween</b> and <b>Feel</b> (More Mountains).</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <!-- Yotube -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3>Content Creator Collaboration – Mechanics &amp; Systems Prototyping</h3>
+                <p>Channel's link: <a href="https://youtube.com/@NahuelEscu">https://youtube.com/@NahuelEscu</a></p>            
+            </div>    
+            
+                <div class="image-container">
+                <img src="images/youtube.png" alt="Gacha Marbles" width="800">
+            </div>
+
+            <div class="description-container">
+                <h4>Collaborated with a game development content creator to design and engineer playable Unity prototypes inspired by iconic AAA mechanics and popular media franchises. Responsible for translating high-level design concepts into solid, production-ready technical architecture.</h4>
+                
+                    <h4>The Last of us 2 - mechanics prototype</h4>
+                    <ul>
+                        <li>Engineered stealth-focused AI utilizing modular<b>(FSM)</b> for enemy alert states and patrolling behaviors.</li>
+                        <li>Implemented a dynamic, context-aware <b>Heartbeat mechanic</b> linked to player stealth and physical exertion.</li>
+                        <li>Developed the signature <b>Listen Mode</b> mechanic, leveraging raycasting and custom rendering layers for wall-penetrating enemy detection.</li>
+                        <li>Managed source control and team synchronization utilizing <b>Unity Version Control</b>.</li>
+                    </ul>                    
+                    <p>Unity project: <a href="https://github.com/NahuelEscujuri/TLOU">https://github.com/NahuelEscujuri/TLOU</a></p>
+                    <p>Youtube playlist: <a href="https://www.youtube.com/playlist?list=PLJeL7mv2DeBbo5oxiYWyz4USjElygHHF1">https://www.youtube.com/playlist?list=PLJeL7mv2DeBbo5oxiYWyz4USjElygHHF1</a></p>
+                                        
+                    <h4>Chainsawman - hack and slash prototype</h4>
+                        <div class="image-container">
+                        <img src="images/CM1.png" alt="Gacha Marbles" width="400">
+                        <img src="images/CM3.png" alt="Gacha Marbles" width="400">
+                        <img src="images/CM2.png" alt="Gacha Marbles" width="400">
+                        <img src="images/CM4.png" alt="Gacha Marbles" width="400">
+                    </div>
+                    <ul>
+                        <li>Architected a central <b>Battle Service Locator</b> to decouple dependency injection and streamline runtime system management.</li>
+                        <li>Engineered a centralized <b>Battle Bootstrapper</b> to handle deterministic initialization of game objects, timers, and user configurations prior to gameplay.</li>
+                        <li>Designed <b>Object Pooling systems</b> for particle effects, audio sources, and concurrent enemy spawning.</li>
+                        <li>Developed a multi-phase Boss AI system featuring spatial behaviors, movement oscillation, dynamic minion spawning, and physics-based projectile throwing (<em>AllyLauncher</em>).</li>
+                        <li>Implemented a <b>Data-Driven architecture</b> using <b>ScriptableObjects</b> as Shared Values to exchange runtime state across decoupled systems without hard references.</li>
+                        <li>Established an architecture based on <b>Event Channels</b> via ScriptableObjects to handle scalable, decoupled communication between core gameplay systems and the UI/UX layer.</li>
+                    </ul>
+                    <p>Unity project: <a href="https://github.com/OuroPrax/Chainsaw_man">https://github.com/OuroPrax/Chainsaw_man</a></p>
+                    <p>Itchio: <a href="https://ouroprax.itch.io/chainsaw-man">https://ouroprax.itch.io/chainsaw-man</a></p>
+            </div>
+            
+        </div>   
+        <hr>
+        <!-- Abismo -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3>Tactic RPG game - Dino Squire (C# Unity)</h3>            
+            </div>
+
+            
+            <div class="image-container">
+                <img src="images/rpg1.png" alt="Tactic RPG game" width="400">
+                <img src="images/rpg2.png" alt="Tactic RPG game" width="400">
+                <img src="images/rpg3.png" alt="Tactic RPG game" width="400">
+            </div>
+        
+
+            <div class="description-container">
+                <p>2D Turn-based tactical RPG roguelike</p>
+                <h4><u>Project Contributions(Sole Unity Gamedev):</u></h4>
+                <ul>                         
+                    <li>Engineered the entire turn-based combat loop including a deterministic battle event resolver, progression systems, and global game state management.</li>
+                    <li>Engineered a node-based event map generation pipeline inspired by <em>Slay the Spire</em>, including procedurally-tailored merchant inventory pools based on active party composition.</li>
+                    <li>Implemented an RPG meta-progression system featuring dynamic character leveling, weapon selection constraints, and branching class advancements.</li>
+                    <li>Developed a highly flexible ability framework supporting modular execution for active, reactive, and passive behaviors.</li>
+                    <li>Designed a data-driven architecture using <b>ScriptableObjects</b> and <b>SerializeReference</b> for characters, abilities, weapons, and status effects.</li>
+                    <li>Built an <b>Ability Targeting &amp; Launch System</b> featuring grid range calculation, custom area-of-effect (AoE) zones, and strict Line of Sight validation algorithms (applicable to both the range and AoE).</li>
+                    <li>Programmed a grid navigation and pathfinding system supporting partial movement paths and obstacle detection.</li>
+                    <li>Implemented a comprehensive local <b>Data Persistence</b> system.</li>
+                    <li>Implemented a <b>Tooltip System</b>, including dynamic hover keyword detection.</li>
+                    <li>Fully integrated the responsive UI/UX layer and managed multi-language support via <b>Unity Localization</b>.</li>
+                </ul>
+            </div>
+            
+        </div>  
+        <hr>
+        <!-- Space Pearls -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3>Space Pearls - Dino Squire (C# Unity)</h3> 
+                <img src="images/SpacePearls.png" alt="Space pearls" width="400">           
+                <p>Itch.io link: <a href="https://dinosquire.itch.io/space-pearls">https://dinosquire.itch.io/space-pearls</a></p>
+                
+            </div>
+            
+            <div class="image-container">
+                <img src="images/space1.png" alt="Space pearls" width="400">
+                <img src="images/space2.png" alt="Space pearls" width="400">
+                <img src="images/space3.png" alt="Space pearls" width="400">
+            </div>
+        
+            <div class="description-container">
+                <p>Small 2D topdown competitive up to 4 players (New and better version of Pirate Pearls)</p>
+                <h4><u>Project Contributions:</u></h4>
+                <h4><b>Game designer</b></h4>
+                <h4><b>Sole Unity Gamedev:</b></h4>
+                <ul>
+                    <li>Designed the core competitive mechanics and balanced the multiplayer gameplay flow.</li>
+                    <li>Engineered the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
+                    <li>Implemented the <b>Unity New Input System</b> to support local 4-player split-input with seamless keyboard and gamepad mapping.</li>
+                    <li>Developed enemy AI behaviors leveraging <b>2D NavMesh</b></li>
+                    <li>Designed a data-driven content architecture using <b>ScriptableObjects</b> for powers and modular game flow events.</li>
+                    <li>Fully implemented and integrated the UI/UX responsive interface with the game's reactive data systems.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <!-- Witch and bats -->
+        <div class="project">
+
+            <div class="title-container">
+                <h3>Witch and bats - Dino Squire (2024) (C# Unity)</h3>
+                <img src="https://img.itch.zone/aW1nLzE1MzA0MjM0LmpwZWc=/original/lQ09QH.jpeg" alt="Witch and bats" width="400">
+                <p>Itch.io link: <a href="https://dinosquire.itch.io/witch-and-bats">https://dinosquire.itch.io/witch-and-bats</a></p>
+                <p>Google Play link: <a href="https://play.google.com/store/apps/details?id=com.DinoDigital.Witchandbats">https://play.google.com/store/apps/details?id=com.DinoDigital.Witchandbats</a></p>
+            </div>
+
+            <div class="image-container">                    
+                <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMzODU3Mi5naWY=/original/ZoLy16.gif" alt="Witch and bats" width="400">
+                <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMwNDIwMi5wbmc=/original/nt8avs.png" alt="Witch and bats" width="400">
+                <img src="https://img.itch.zone/aW1hZ2UvMjU3MTIzMS8xNTMwNDIwNy5wbmc=/original/SbSCG5.png" alt="Witch and bats" width="400">
+            </div>
+
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5r30qQlEQmg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="description-container">
+                <p>Little 2D action game.</p>
+                <h4><u>Project Contributions (Sole Unity Gamedev):</u></h4>
+                <ul>
+                    <li>Designed and implemented a modular <b>Finite State Machine (FSM)</b> to drive boss AI behaviors and combat phases.</li>
+                    <li>Engineered the core gameplay loop.</li>
+                    <li>Structured a data-driven content pipeline using <b>ScriptableObjects</b>.</li>
+                    <li>Developed and fully integrated the responsive UI/UX system, including a dynamic unlockable art gallery.</li>
+                    <li>Implemented multi-language support leveraging the official <b>Unity Localization</b> package.</li>
+                </ul>
+            </div>
+            
+        </div> 
+        <hr>
+        <!-- Cars battle game -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3>Cars battle game (2024) (C# Unity) (Concluded Collaboration)</h3>            
+            </div>
+            
+            <div class="image-container">
+                <img src="images/car.jpg" alt="Cars battle game" width="400">
+                <img src="images/car2.jpg" alt="Cars battle game" width="400">
+            </div>
+        
+            <div class="description-container">
+                <p>A fast-paced vehicular combat game featuring split-screen multiplayer, interactive arenas, and dynamic weapon mechanics.</p>
+                <h4><u>Project Contributions(Unity Gamedev):</u></h4>
+                <ul>
+                    <li>Implemented multiplayer local integration utilizing the new <b>Unity Input System</b> configured for <b>split-screen</b> gameplay.</li>
+                    <li>Configured dynamic multi-camera tracking per player leveraging <b>Cinemachine</b> virtual camera structures.</li>
+                    <li>Programmed modular gameplay logic for vehicle-specific weapons, offensive powers, and unique special abilities.</li>
+                    <li>Engineered environment control structures and interactive arena events, including jump platforms, explosive hazards, and dynamic stage elements.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- Turf Wars Rabbits -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3> Turf Wars Rabbits - <a target="_blank" href="https://www.linkedin.com/company/white-beach-studio">White Beach Studio</a> (2025) (C# Unity) (Project Cancelled)</h3>            
+            </div>
+
+            
+            <div class="image-container">
+            <img src="images/TurfWarsRabbitsLogo.png" alt="Logo" style="max-height:200px; width:auto;">
+            <img src="images/TWRFondo.png" alt="BG" style="max-height:200px; width:auto;">
+            <img src="images/TWRBunnys.png" alt="Ch" style="max-height:200px; width:auto;">
+            </div>
+
+        
+
+            <div class="description-container">
+                <p>Multiplayer party game for 2–4 players. I contributed as programmer, implementing power-ups, UI, and responsive feedback using MoreMountains Feel. The project was cancelled by studio decision.</p>
+                <h4><u>Project Contributions (Unity Gamedev):</u></h4>
+                <ul>
+                    <li>Implemented some powerups.</li>
+                    <li>Integrated Feel (MoreMountains) for responsive feedback and polished player experience</li>
+                    <Li>Implementation of UIs</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <!-- Don´t lose your Sanity -->
+        <div class="project">
+        
+            <div class="title-container">
+                <h3>Don´t lose your Sanity (2024) (C# Unity) (Project Cancelled)</h3>            
+            </div>
+        
+            <div class="image-container">
+            </div>
+    
+            <div class="description-container">
+                <p>A multiplayer party game inspired by social deduction mechanics. Players take on unique characters with special abilities: some must complete missions across the map, while others secretly act as impostors, trying to eliminate the rest without being discovered. The project was cancelled in its
+                    early stages</p>
+                <h4><u>Project Contributions(Unity Gamedev):</u></h4>
+                <ul>
+                    <li>Integrated core gameplay mechanics with <b>Photon Unity Networking (PUN)</b>, ensuring synchronized multiplayer interactions and state replication across clients.</li>
+                    <li>Designed and programmed unique character abilities, handling networked activation, custom animations, and cross-client gameplay effects.</li>
+                    <li>Developed a synchronized <b>Inventory &amp; Item Flow System</b> for managing items that players could collect, hold, use, or swap in active hand states over the network.</li>
+                    <li>Collaborated on technical documentation, system design, and early architecture prototyping before project cancellation.</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <!-- Overcooked like game -->
+        <div class="project">
+        
+            <div class="title-container">
+                <h3>Overcooked like game - Condor Entertainment (2024) (C# Unity) (Project Cancelled)</h3>            
+            </div>
+        
+            <div class="image-container">
+            </div>
+    
+            <div class="description-container">
+                <p>A multiplayer party game inspired by Overcooked, where each character
+                    would have unique skills and stats. The project was cancelled in its
+                    early stages.</p>
+                <h4><u>Project Contributions (Unity Gamedev):</u></h4>
+                <ul>
+
+                        <li>Designed the initial data and technical architecture for character skills and player stats.</li>
+                        <li>Collaborated on early technical prototyping, systems documentation, and design specifications before project cancellation.</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <!-- Pirate pearls -->
+        <div class="project">
+            
+            <div class="title-container">
+                <img src="https://img.itch.zone/aW1nLzEzMDg3NDkwLmpwZWc=/315x250%23c/Pzz3AG.jpeg" alt="Pirate pearls" width="400">
+                <h3>Pirate pearls (C# Unity)</h3>
+                <p>Itch.io link: <a href="https://reyndev.itch.io/pirate-pearls">https://reyndev.itch.io/pirate-pearls</a></p>   
+                <p>Github link: <a href="https://github.com/ReyNicolas/PearlsPirates">https://github.com/ReyNicolas/PearlsPirates</a></p>               
+            </div>
+
+            
+            <div class="image-container">
+                <img src="https://img.itch.zone/aW1nLzEzODk3MTE5LmdpZg==/original/kz4X8A.gif" alt="Pirate pearls" width="400">
+                <img src="https://img.itch.zone/aW1nLzE0MTY1ODU0LnBuZw==/original/molq0o.png" alt="Pirate pearls" width="400">
+            </div>
+        
+
+            <div class="description-container">
+                <p>Small 2D topdown competitive up to 4 players</p>
+                <h4><u>Feature keys:</u></h4>
+                <ul>
+                    <li>Designed the core competitive mechanics and balanced the multiplayer gameplay flow.</li>
+                    <li>Engineered the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
+                    <li>Implemented the <b>Unity New Input System</b> to support local 4-player split-input with seamless keyboard and gamepad mapping.</li>
+                    <li>Developed enemy AI behaviors leveraging <b>2D NavMesh</b></li>
+                    <li>Designed a data-driven content architecture using <b>ScriptableObjects</b> for powers and modular game flow events.</li>
+                    <li>Fully implemented and integrated the UI/UX responsive interface with the game's reactive data systems.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <!-- Until death -->
+        <div class="project">
+            
+            <div class="title-container">
+                <img src="https://img.itch.zone/aW1nLzEzNjY2NTM3LmpwZw==/315x250%23c/NMiW8B.jpg" alt="Until death" width="400">
+                <h3>Until death (C# Unity)</h3>
+                <p>Itch.io link: <a href="https://reyndev.itch.io/until-death">https://reyndev.itch.io/until-death</a></p> 
+                <p>Github link: <a href="https://github.com/ReyNicolas/Beat-em-up">https://github.com/ReyNicolas/Beat-em-up</a></p>               
+            </div>
+            
+            <div class="image-container">
+                <img src="https://img.itch.zone/aW1hZ2UvMjI4MzgzNS8xMzY2NjYwNy5wbmc=/794x1000/cPZiYL.png" alt="Until death" width="400">
+                <img src="https://img.itch.zone/aW1hZ2UvMjI4MzgzNS8xMzY2NjYwOC5wbmc=/794x1000/mbQ0QC.png" alt="Until death" width="400">
+                </div>
+        
+
+            <div class="description-container">
+                <p>Small 2D topdown survivor game</p>
+                <h4><u>Feature keys:</u></h4>
+                <ul>
+                    <li>Developed the entire game framework, including asynchronous game loops, wave timers, and event-driven data streams leveraging <b>UniRx</b> (Reactive Extensions for Unity).</li>
+                    <li>Architected a data-driven system using <b>ScriptableObjects</b> to independently manage enemy wave configurations, spawn rules, and player statistics.</li>
+                    <li>Programmed the core combat mechanics, enemy spawning pipeline, top-down player locomotion, and real-time UI updates via reactive property bindings.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <!-- Topic twister -->
+        <div class="project">
+            
+            <div class="title-container">
+                <h3>Topic twister (Quark Academy - Unity Engine final project)</h3>            
+            </div>
+            
+            <div class="image-container">
+                <img src="images/topic.png" alt="Topic twister" width="400">
+                <img src="images/topic1.png" alt="Topic twister" width="400">
+                <img src="images/topic2.png" alt="Topic twister" width="400">
+                </div>
+        
+
+            <div class="description-container">
+                <p>Unity trivia game showcasing microservices architecture. Clean Architecture. TDD
+                <br>  </p>
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://github.com/ReyNicolas/TopicTwisterUnityProject">Unity</a></li>
+                    <li><a href="https://github.com/ReyNicolas/TopicTwisterMainAPI">Main .NET API</a></li>
+                    <li><a href="https://github.com/ReyNicolas/TopicTwisterKotlinKtor">Ktor Player Microservice API</a></li>
+                </ul>
+            
+                <h2>Tools Used</h2>
+                <ul>
+                    <li>IntelliJ IDEA version: 2023.1.3</li>
+                    <li>Kotlin</li>
+                    <li>Ktor</li>
+                    <li>JUnit</li>
+                    <li>Mockito</li>
+                    <li>Firebase Firestore</li>
+                </ul>
+            
+                <h2>Methodologies Used</h2>
+                <ul>
+                    <li>Clean Architecture</li>
+                    <li>Pair programming</li>
+                    <li>TDD</li>
+                </ul> 
+            </div>
+            
+        </div>
+        <hr>
    
     <footer>
         <p>&copy; <span id="year"></span> Rey Nicolás Esteban. All rights reserved.</p>
