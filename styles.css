@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #cd0f0f;
+    background-color: #1e1e1e;
     color: #e0e0e0;
 }
 
 header {
-    background-color: #1f1f1f;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -16,7 +16,7 @@ header {
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #2e0505;
+    background-color: #181818;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -30,7 +30,7 @@ h2 {
     margin-bottom: 10px;
     margin-top: 10px;
     border-radius: 8px;
-    background-color: #2e00008e;
+    background-color: #000000;
 }
 
 .project img {
@@ -44,7 +44,7 @@ h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #1f1f1f;
+    background-color: #252525;
     color: #fff;
     position: fixed;
     width: 100%;
@@ -125,14 +125,14 @@ a:hover {
     .tabs {
         display: flex;
         justify-content: space-around;
-        background-color: #010101;
+        background-color: #000000;
         padding: 10px;
         border-radius: 5px;
     }
 
     /* Estilo para los botones de las pestañas */
     .tablink {
-        background-color: #444;
+        background-color: #020202;
         color: white;
         border: none;
         padding: 10px 20px;
@@ -142,20 +142,20 @@ a:hover {
     }
     /* Estilo para el botón activo */
     .tablink:active {
-        background-color: #5e0000;
+        background-color: #000000;
     }
 
     /* Efecto hover para los botones */
     .tablink:hover {
-        background-color: #801111;
+        background-color: #000000;
     }
 
     /* Estilo para el contenido de las pestañas */
     .tabcontent {
         display: none;
         padding: 20px;
-        background-color: #610202;
-        color: white;
+        background-color: #171717;
+        color: #f4f3f3;
         border-radius: 5px;
         margin-top: 10px;
     }
