@@ -188,11 +188,12 @@ hr {
     letter-spacing: 0.5px;
 }
 
-.badge-architecture { background-color: #c12b2b; color: #ffffff; } 
-.badge-featured { background-color: #c1b52b; color: #ffffff; } 
-.badge-commercial { background-color: #2eb85c; color: #ffffff; } 
-.badge-network-multiplayer { background-color: #6f42c1; color: #ffffff; } 
-.badge-local-multiplayer { background-color: #e67e22; color: #ffffff; }
+.badge-architecture { background-color: #ae0404; color: #ffffff; } 
+.badge-featured { background-color: #d5c300; color: #ffffff; } 
+.badge-commercial { background-color: #039735; color: #ffffff; } 
+.badge-network-multiplayer { background-color: #3f04ac; color: #ffffff; } 
+.badge-local-multiplayer { background-color: #c15b02; color: #ffffff; }
+.badge-role { background-color: #0c0c85; color: #ffffff; }
 
 /* ==========================================
    MEDIA HANDLERS (IMAGES, VIDEOS, IFRAMES)
