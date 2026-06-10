@@ -1,11 +1,13 @@
+/* ==========================================
+   CORE & GENERAL LAYOUT
+   ========================================== */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #1e1e1e;
     color: #e0e0e0;
-
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -17,43 +19,12 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #181818;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-h2 {
-    color: #e0e0e0;
-}
-
-.project {
-    padding: 8px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-radius: 8px;
-    background-color: #000000;
-}
-
-.project img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-
-
-footer {
-    text-align: center;
-    background-color: #252525;
-    color: #fff;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: #e0e0e0;
 }
 
 a {
@@ -73,104 +44,249 @@ a:hover {
     text-align: center;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 40px 0;
+    width: 80%;
+}
 
-/* video */
-    .video-container{
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%; 
-        height: 0;
-    }
+/* ==========================================
+   HERO / ABOUT ME & CONTACT INFO
+   ========================================== */
+.hero-container {
+    max-width: 1000px;
+    padding: 20px;
+}
 
-    .video-container video{
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+.hero-tagline {
+    font-style: italic;
+    color: #aaa;
+    margin-bottom: 20px;
+}
 
-    .iframe-container{
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%; 
-        height: 0;
-      }
-      .iframe-container iframe{
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+.about-text {
+    max-width: 800px;
+    line-height: 1.6;
+    margin: 0 auto 20px auto;
+}
 
+.contact-links p {
+    margin: 5px 0;
+}
 
-      .contact {        
-        text-align: left; 
-        max-width:1000px;
-      }
+/* ==========================================
+   DYNAMIC FILTERS SECTION (REPLACES OLD TABS)
+   ========================================== */
+.filter-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #181818;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+    width: 90%;
+    box-sizing: border-box;
+}
 
-/* description */
-    .description-container ul {
-        padding: 0;
-        text-align: left; 
-        display: inline-block; 
-    }
+.filter-instructions {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
 
-    .description-container ul li {
-        margin-bottom: 10px;
-        max-width: 600px;
-    }
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
 
-    .description-container p {
-        margin-bottom: 10px;
-    }
+.filter-btn {
+    background-color: #020202;
+    color: white;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
 
-/* Tabs */
-    .tabs {
-        display: flex;
-        justify-content: space-around;
-        background-color: #000000;
-        padding: 10px;
-        border-radius: 5px;
-    }
+.filter-btn:hover, .filter-btn.active {
+    background-color: #ffeb3b;
+    color: #000000;
+    border-color: #ffeb3b;
+    font-weight: bold;
+}
 
-    /* Estilo para los botones de las pestañas */
-    .tablink {
-        background-color: #020202;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        border-radius: 5px;
-    }
-    /* Estilo para el botón activo */
-    .tablink:active {
-        background-color: #000000;
-    }
+/* ==========================================
+   PROJECTS CONTAINER & SHOWCASE CARDS
+   ========================================== */
+.projects-container {
+    max-width: 1000px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px; /* Margen inferior para que no lo tape el footer */
+}
 
-    /* Efecto hover para los botones */
-    .tablink:hover {
-        background-color: #000000;
-    }
+/* Tarjeta contenedora de cada proyecto */
+.project-card {
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #000000;
+    box-sizing: border-box;
+    text-align: center;
+    /* Transición de filtrado */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 1;
+    transform: scale(1);
+}
 
-    /* Estilo para el contenido de las pestañas */
-    .tabcontent {
-        display: none;
-        padding: 20px;
-        background-color: #171717;
-        color: #f4f3f3;
-        border-radius: 5px;
-        margin-top: 10px;
-    }
+/* Clase que inyecta JS para desvanecer tarjetas ocultas */
+.project-card.hidden-card {
+    opacity: 0;
+    transform: scale(0.95);
+}
 
-    /* Mostrar el contenido activo */
-    .tabcontent.active {
-        display: block;
-    }
+.project-meta {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+/* Sub-proyectos internos (ej: Bloques de YouTube) */
+.sub-project-title {
+    color: #ffeb3b;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-left: 3px solid #ffeb3b;
+    padding-left: 10px;
+}
+
+.sub-images {
+    margin-bottom: 15px;
+}
+
+/* ==========================================
+   TECHNICAL BADGES / LABELS
+   ========================================== */
+.project-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-architecture { background-color: #c12b2b; color: #ffffff; } 
+.badge-featured { background-color: #c1b52b; color: #ffffff; } 
+.badge-commercial { background-color: #2eb85c; color: #ffffff; } 
+.badge-network-multiplayer { background-color: #6f42c1; color: #ffffff; } 
+.badge-local-multiplayer { background-color: #e67e22; color: #ffffff; }
+
+/* ==========================================
+   MEDIA HANDLERS (IMAGES, VIDEOS, IFRAMES)
+   ========================================== */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
 
 .image-container img {
-  max-height: 200px;
-  width: auto; /* mantiene proporción */
+    max-width: 100%;
+    max-height: 200px;
+    width: auto; /* Mantiene la proporción */
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Video nativo responsivo */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin: 15px 0;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Iframe (YouTube) responsivo */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin: 15px 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+}
+
+/* ==========================================
+   TEXT AND DESCRIPTIONS CORES
+   ========================================== */
+.description-container p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.description-container ul {
+    padding-left: 20px;
+    text-align: left; 
+    display: inline-block; 
+}
+
+.description-container ul li {
+    margin-bottom: 10px;
+    max-width: 600px;
+    line-height: 1.4;
+}
+
+.repo-links {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ==========================================
+   FOOTER STICKY PRESERVATION
+   ========================================== */
+footer {
+    text-align: center;
+    background-color: #252525;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 100;
 }
