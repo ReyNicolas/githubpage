@@ -78,7 +78,7 @@
                 <h4>Key Technical Contributions:</h4>
                 <ul>
                     <li>Architected and implemented a data-driven card combat and item system utilizing <b>ScriptableObjects</b> for scalable design.</li>
-                    <li>Engineered the core gameplay logic for 90+ unique cards, relic behaviors, and turn-based status effects.</li>
+                    <li>Programmed and structured the core gameplay logic for 90+ unique cards, relic behaviors, and turn-based status effects.</li>
                     <li>Developed dynamic systems for procedurally-influenced tower progression, including merchant rooms, event logic, and enemy encounter selection algorithms.</li>
                     <li>Built and fully integrated the game's UI/UX flow decoupled from core gameplay logic.</li>
                     <li>Implemented multi-language support leveraging <b>Unity Localization</b>.</li>
@@ -107,10 +107,10 @@
                 <h4>Key Technical Contributions:</h4>
                 <ul>
                     <li>Architected the core battle event resolution engine and state management.</li>
-                    <li>Engineered a modular ability pipeline using <b>ScriptableObjects</b> and <b>SerializeReference</b> to drive individual marble behaviors.</li>
-                    <li>Implemented a robust local <b>Data Persistence</b> system for inventory, unlocks, and player collection states.</li>
+                    <li>Programmed and structured a modular ability workflow using <b>ScriptableObjects</b> and <b>SerializeReference</b> to drive individual marble behaviors.</li>
+                    <li>Implemented a <b>Data Persistence</b> for inventory, unlocks, and player collection states.</li>
                     <li>Developed a <b>Tooltip System</b> featuring dynamic keyword detection on hover for enhanced player onboarding.</li>
-                    <li>Integrated a seamless <b>Dual Grid Tile System</b> to streamline and accelerate 2D level design and environment creation.</li>
+                    <li>Integrated a <b>Dual Grid Tile System</b> to streamline and accelerate 2D level design and environment creation.</li>
                     <li>Polished game feel, juice, and UI transitions by scripting tweens and feedback triggers using <b>DOTween</b> and <b>Feel</b>.</li>
                     <li>Fully implemented the responsive user interface and integrated multi-language support via <b>Unity Localization</b>.</li>
                 </ul>
@@ -138,15 +138,15 @@
                 <h4>Key Technical Contributions:</h4>
                 <ul>
                     <li><b>Procedural Dungeon Generator:</b> Created a system that generates maps using fully procedural rooms or predefined templates connected by valid doors.</li>
-                    <li><b>Inventory &amp; Equipment System:</b> Developed an inventory with mountable storage and item actions (drop, use, equip, unequip, transfer), fully integrated with equipment and item usage logic.</li>
-                    <li><b>Dual Grid Liquid System:</b> Built an expansion-ready liquid simulation featuring directional flow, wall/abyss interactions, visual effects when falling, and entity/object interaction.</li>
-                    <li><b>Liquid Detection:</b> Implemented a system that detects liquids under the player and entities, replacing normal movement effects (run, jump, dash) with custom particle feedback.</li>
+                    <li><b>Inventory &amp; Equipment System:</b> Developed an inventory system with mountable storage and item actions (drop, use, equip, unequip, transfer), fully integrated with equipment and item usage logic.</li>
+                    <li><b>Dual Grid Liquid System:</b> Built a liquid system based on dual grid; featuring directional flow, wall/abyss interactions, visual effects when falling, and entity/object interaction.</li>
+                    <li><b>Liquid Detection:</b> Implemented liquid detection for player and entities, replacing normal movement effects (run, jump, dash) with custom particle feedback.</li>
                     <li><b>Player Controller &amp; Abilities:</b> Programmed movement mechanics (running, jumping, dashing, pushing) governed by stamina costs and a capability-blocking logic flow.</li>
                     <li><b>Object Handling &amp; Aiming:</b> Developed logic for grabbing, releasing, and carrying objects on the head, including a forced-throw trigger when hit or dashing, and directional aiming for throwing items with custom hit logic per item.</li>
-                    <li><b>Corpse Controller:</b> Designed a system that manages dynamic bodies using modular components to execute specific actions upon generation (such as custom storage components, visual display updates, or auto-destruction timers).</li>
+                    <li><b>Corpse Controller:</b> Designed a controller that manages dynamic bodies using modular components to execute specific actions upon generation (such as custom storage components, visual display updates, or auto-destruction timers).</li>
                     <li><b>Environment Elements &amp; Props:</b> Programmed interactive hazards and items, including chests (unlocking, setting contents, and inventory interaction), spike traps, pushable items, collectible pushables, and barrels that release damage or liquids.</li>
                     <li><b>Safe Zone Finder:</b> Built a positioning tool to find valid, safe areas for object and prop placement.</li>
-                    <li><b>Abyss System:</b> Engineered an optimized checking system for entities, objects, and liquids falling into the abyss.</li>
+                    <li><b>Abyss System:</b> Programmed a checking system for entities, objects, and liquids falling into the abyss.</li>
                     <li><b>Enemy AI &amp; Slime Logic:</b> Implemented enemy pathfinding for patrolling, chasing, and attacking states, alongside a special slime behavior that handles division on death, item absorption, and movement logic to actively avoid non-slime liquids.</li>
                     <li><b>Status Effects:</b> Developed a status effects logic applicable to both the player and external entities.</li>
                     <li><b>Game Feel &amp; Juicing:</b> Polished game feel, visual feedback, by scripting smooth tweens and feedback triggers using DOTween and Feel (More Mountains)</li>
@@ -209,8 +209,8 @@
                 <p>A 2D Turn-based tactical roguelike.</p>
                 <h4>Key Technical Contributions:</h4>
                 <ul>
-                    <li>Engineered the entire turn-based combat loop including a <b>deterministic battle event resolver</b>, progression systems, and global game state management.</li>
-                    <li>Engineered a <b>node-based event map generation pipeline</b> inspired by <em>Slay the Spire</em>, including procedurally-tailored merchant inventory pools based on active party composition.</li>
+                    <li>Programmed and structured the entire turn-based combat loop including a <b>deterministic battle event resolver</b>, progression systems, and global game state management.</li>
+                    <li>Developed a <b>node-based event map generation pipeline</b> inspired by <em>Slay the Spire</em>, including procedurally-tailored merchant inventory pools based on active party composition.</li>
                     <li>Implemented an <b>RPG meta-progression system</b> featuring dynamic character leveling, weapon selection constraints, and branching class advancements.</li>
                     <li>Developed an <b>ability system</b> supporting active, reactive, and passive behaviors.</li>
                     <li>Designed a <b>data-driven architecture</b> using <b>ScriptableObjects</b> and <b>SerializeReference</b> for characters, abilities, weapons, and status effects.</li>
@@ -242,7 +242,7 @@
                 <h4>Key Technical Contributions:</h4>
                 <ul>
                     <li>Designed the core competitive mechanics and balanced the multiplayer gameplay flow.</li>
-                    <li>Engineered the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
+                    <li>Programmed and structured the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
                     <li>Implemented the <b>Unity New Input System</b> to support local 4-player split-input with seamless keyboard and gamepad mapping.</li>
                     <li>Developed enemy AI behaviors leveraging <b>2D NavMesh</b>.</li>
                     <li>Designed a <b>data-driven content architecture</b> using <b>ScriptableObjects</b> for powers and modular game flow events.</li>
@@ -273,8 +273,7 @@
                 <h4>Key Technical Contributions:</h4>
                 <ul>
                     <li>Designed and implemented a modular <b>Finite State Machine (FSM)</b> to drive boss AI behaviors and combat phases.</li>
-                    <li>Engineered the core gameplay loop.</li>
-                    <li>Structured a <b>data-driven content pipeline</b> using <b>ScriptableObjects</b>.</li>
+                    <li>Programmed the core gameplay loop.</li>
                     <li>Developed and fully integrated the responsive UI/UX system, including a dynamic unlockable art gallery.</li>
                     <li>Implemented multi-language support leveraging the official <b>Unity Localization</b> package.</li>
                 </ul>
@@ -297,7 +296,7 @@
                 <p>Stealth-based horror game inspired by H.P. Lovecraft. I programmed game flow, AI state machine, stealth mechanics, and sanity effects. The project was cancelled during its prototype stage (2024)</p>
                 <h4>Key Technical Contributions:</h4>
                 <ul>
-                    <li>Engineered the core game loop, global game flow programming, and general state management.</li>
+                    <li>Programmed and structured the core game loop, global game flow programming, and general state management.</li>
                     <li>Developed a custom <b>AI State Machine</b> to handle enemy behaviors, patrolling paths, and dynamic combat investigation.</li>
                     <li>Programmed an <b>AI Detection &amp; Stealth System</b>, implementing vision/hearing sensing cones and alert screaming mechanics to signal nearby threats.</li>
                     <li>Designed integrated <b>Sanity &amp; Stamina</b> core player statistics.</li>
@@ -327,7 +326,7 @@
                     <li>Implemented multiplayer local integration utilizing the new <b>Unity Input System</b> configured for <b>split-screen</b> gameplay.</li>
                     <li>Configured dynamic multi-camera tracking per player leveraging <b>Cinemachine</b> virtual camera structures.</li>
                     <li>Programmed modular gameplay logic for vehicle-specific weapons, offensive powers, and unique special abilities.</li>
-                    <li>Engineered environment control structures and interactive arena events (jump platforms, explosive hazards).</li>
+                    <li>Implemented environment control structures and interactive arena events (jump platforms, explosive hazards).</li>
                 </ul>
             </div>
         </article>
@@ -366,7 +365,7 @@
                 <p>A multiplayer party game inspired by social deduction mechanics. Players take on unique characters with special abilities: some must complete missions across the map, while others secretly act as impostors, trying to eliminate the rest without being discovered. The project was cancelled in its early stages.</p>
                 <h4>Key Technical Contributions:</h4>
                 <ul>
- 
+                </ul>
             </div>
         </article>
 
@@ -407,7 +406,7 @@
                 <h4>Feature keys:</h4>
                 <ul>
                     <li>Designed the core competitive mechanics and balanced the multiplayer gameplay flow.</li>
-                    <li>Engineered the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
+                    <li>Programmed and structured the entire gameplay loop and state management utilizing <b>UniRX</b> for reactive, decoupled event handling.</li>
                     <li>Implemented the <b>Unity New Input System</b> to support local 4-player split-input with seamless keyboard and gamepad mapping.</li>
                     <li>Developed enemy AI behaviors leveraging <b>2D NavMesh</b>.</li>
                     <li>Designed a <b>data-driven content architecture</b> using <b>ScriptableObjects</b> for powers and modular game flow events.</li>
